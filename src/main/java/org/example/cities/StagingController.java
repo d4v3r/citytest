@@ -8,6 +8,6 @@ public class StagingController {
 
     @RequestMapping("/")
     public String index() {
-        return "Hello Austin";
+        return "Hello Austin, Texas!";
     }
 }
