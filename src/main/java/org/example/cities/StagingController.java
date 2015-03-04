@@ -8,7 +8,6 @@ public class StagingController {
 
     @RequestMapping("/")
     public String index() {
-        String timestamp = System.getProperty("staging.timestamp");
-        return "Application was staged at: " + timestamp;
+        return "Hello Austin";
     }
 }
